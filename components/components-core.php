@@ -730,6 +730,13 @@ function ampforwp_backtotop_global_css(){?>
       width: 50px;
       height: 50px;
   }
+      button#scrollToTopButton {
+      font: inherit;
+      padding: 0;
+      border-width: 0;
+      border-image: initial;
+  }
+
   .btt:hover{color:#fff;background:#474747;}
   .btt:before{
     content: '\25be';
